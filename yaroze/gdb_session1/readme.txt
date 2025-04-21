@@ -1,3 +1,5 @@
+![Alt text](gdb_session.png)
+
 To use manual GDB trigger in NET Yaroze you can setup this patch
 
 Sample project: \PSX\SAMPLE\CHECK
