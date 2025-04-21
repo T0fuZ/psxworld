@@ -1,0 +1,3 @@
+Powreshell and hit this:
+
+Set-Content -Path 'C:\path-to-project-inside-dropbox\.git' -Stream com.dropbox.ignored -Value 1
