@@ -1,0 +1,13 @@
+--- MAIN_orig.C
++++ MAIN.c
+@@ -265,6 +265,10 @@
+ {
+ 	u_long padd = PadRead(1);		/* Controller reading */
+ 
++	if (padd & PADR2) {  // if R2
++		// break in GDB upon R2 press, be sure to use 'cc' to get out of it
++		__asm__("break");
++	}
+ 	if (padd & PADLup)	n += 4;	/* Left cross key up */
+ 	if (padd & PADLdown)	n -= 4;	/* Left cross key down */
+ 
