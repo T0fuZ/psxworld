@@ -29,7 +29,7 @@ Making of patch:
 ```busybox diff -u MAIN_orig.C MAIN.c > asm_break_patch.diff```
 
 Apply patch
-```busybox patch Main_test.c < asm_break_patch.diff````
+```busybox patch Main_test.c < asm_break_patch.diff```
 
 In gdb.ini add
 ```
