@@ -21,13 +21,6 @@ main [.sdata] address:801003a0-8010042f size:000090  000090:    2sec.
   PC=80100070, GP=801083a0, SP=801ffff0
 
 >>go
-main [ .text] address:80100000-8010022f size:000230  000230:    0sec.
-main [.rdata] address:80100230-8010024f size:000020  000020:    1sec.
-main [ .data] address:80100250-8010039f size:000150  000150:    1sec.
-main [.sdata] address:801003a0-8010042f size:000090  000090:    2sec.
-  PC=80100070, GP=801083a0, SP=801ffff0
-
->>go
 hi
 Reply to STDOUT: hi
 this seems to be working
