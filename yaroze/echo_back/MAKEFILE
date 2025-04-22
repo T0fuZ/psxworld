@@ -1,0 +1,11 @@
+C_FLAGS  = -O3
+LINKER  = -Xlinker -Map -Xlinker mapfile -Xlinker -Ttext -Xlinker 80100000
+
+all: main
+
+main: main.o
+	gcc $(LINKER) main.o -o main
+
+main.o: main.c
+	gcc -c $(C_FLAGS) main.c
+   
